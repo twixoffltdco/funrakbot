@@ -1,0 +1,35 @@
+{
+  "name": "fun-rakbot-web",
+  "version": "1.0.0",
+  "private": false,
+  "description": "FUN RAKBOT WEB — браузерный RakNet-бот для удержания онлайн на SA-MP / CRMP серверах (NO-VPS, Edge Runtime).",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fun-rakbot/fun-rakbot-web.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test:raknet": "node --loader ts-node/esm lib/raknet/selftest.ts"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
